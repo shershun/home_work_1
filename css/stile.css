@@ -1,0 +1,215 @@
+:root {
+  --main-text-cl: #212121;
+  --title-cl: #212121;
+  --accent-cl: #2196f3;
+  --alt-text-cl: #757575;
+  --alt-title-cl: #ffffff;
+  --dark-bg: #2f303a;
+  --second-bg: #f5f4fa;
+}
+
+a {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/*Навигация*/
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.logo {
+}
+.nav-link {
+}
+.nav-page {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .item {
+  margin-right: 50px;
+}
+.site-nav .item:last-child {
+  margin-right: 0px;
+}
+
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: Raleway;
+  color: var(--title-cl);
+  width: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo > .logo-web {
+  color: var(--accent-cl);
+}
+.nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-text-cl);
+}
+.nav-adres {
+  display: flex;
+  margin-left: auto;
+}
+.nav-adres .item + .item {
+  margin-left: 50px;
+}
+
+.nav-adres-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  color: var(--alt-text-cl);
+}
+.nav-adres-link :hover {
+  color: var(--accent-cl);
+}
+
+/*Герой*/
+
+.hiro-bk {
+  width: auto;
+  height: 600px;
+  background-color: var(--dark-bg);
+}
+.hiro-bk .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hiro-title {
+  display: block;
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alt-title-cl);
+}
+
+.hiro-button {
+  width: 200px;
+  height: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  color: var(--alt-title-cl);
+  background-color: var(--accent-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*Технологии*/
+.section-bg {
+  background-color: var(--alt-title-cl);
+}
+.aboutus-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-cl);
+}
+.aboutus-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--alt-text-cl);
+}
+.wedoing-title {
+  weight: 700;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*Наша команда */
+.team-section {
+  background-color: var(--second-bg);
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-cl);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--main-text-cl);
+}
+.team-prof {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--alt-text-cl);
+}
+/*Футер*/
+footer {
+  background-color: var(--dark-bg);
+}
+footer > p {
+}
+.footer-adres {
+  font-size: 14px;
+  color: var(--alt-title-cl);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.Section-box {
+}
